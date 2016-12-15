@@ -5,7 +5,7 @@
         selector: "textarea",
         toolbar: "mybutton",
         height: 200,
-        width: 500,
+        width: 400,
         theme: 'modern',
         plugins: [
             'advlist autolink lists link image charmap print preview hr anchor pagebreak',
@@ -191,13 +191,13 @@
                                     <div id="my-tab-content" class="tab-content">
                                         <div class="tab-pane fade in active" id="section-1">
                                             <input type="hidden" name="id" value="<?php echo $id ?>" >
-                                            <a class="btn" href="javascript:;" onclick="tinymce.execCommand('mceToggleEditor', false, 'content');"><span>Toggle TinyMCE</span></a>
+                                            <a class="btn" href="javascript:;" onclick="tinymce.execCommand('mceToggleEditor', false, 'mission_and_vision');"><span>Toggle TinyMCE</span></a>
                                             <textarea class="form-control" name="mission_and_vision"></textarea>
                                             <div class="error"><?php echo form_error('page_name'); ?></div>
                                         </div>
                                         <div class="tab-pane fade" id="section-2">
                                             <input type="hidden" name="id" value="<?php echo $id ?>" >
-                                            <a class="btn" href="javascript:;" onclick="tinymce.execCommand('mceToggleEditor', false, 'content');"><span>Toggle TinyMCE</span></a>
+                                            <a class="btn" href="javascript:;" onclick="tinymce.execCommand('mceToggleEditor', false, 'at_a_glance');"><span>Toggle TinyMCE</span></a>
                                             <textarea class="form-control" name="at_a_glance"></textarea>
                                             <div class="error"><?php echo form_error('page_name'); ?></div>
                                         </div>
