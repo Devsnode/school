@@ -1,0 +1,88 @@
+/*--
+	Theme Name: School Theme
+	Theme URI: xxx
+	Author: teamThink
+	Author URI: www.teamthink.com
+	Description: School Education Responsive Template
+	Version: 1.0
+	License URI: http://
+	Tags:
+--*/
+
+@import "breakingNews.css";
+@import "jquery.mCustomScrollbar.css";
+@import "misc.css";
+@import "main.css";
+@import "color-scheme.css";
+@import "responsive.css";
+
+
+/*Custom CSS*/
+/*Font Class*/
+.bn_font{
+	font-family:'Hind Siliguri', sans-serif;
+}
+body, .main-menu li ul, .tab-content > .tab-pane {
+  border-color: #870000;
+}
+.school_name{color:#fff;font-size: 47px;font-family:'Play', sans-serif;}
+        .logo_img{width: 120px;}
+        .header-center{margin-top: 20px}
+.widget-inner .important_links{
+	list-style-type: none;
+	padding: 5px 13px;
+}
+.widget-inner .important_links li{
+	padding-left: 5px;
+	list-style-type:Square;
+	margin-bottom: 8px;
+}
+.widget-inner .important_links li a{
+	font: 14px/21px 'Hind Siliguri', sans-serif;
+}
+.head_img img{
+	float: left;
+	margin:0 30px 10px 0;
+	border: 5px solid #ffffff;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+}
+.head_msg{
+	
+}
+.head_signature{
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px dashed #d5dbe0;
+}
+.head_signature p{
+	margin-bottom: 0;
+}
+.head_signature p strong{color:#8c489f;}
+.news_ticker{
+	margin-top: 15px
+}
+#content-1 a{
+	font-family:'Hind Siliguri', sans-serif;
+}
+.mission_content,.at_a_glance,.history{
+	text-align: justify;
+	font-family:'Hind Siliguri', sans-serif;
+}
+.address .add_label,.add_label{
+	font-weight: bold;
+	color: #6d387c;
+	font-size: 15px;
+}
+.violet_bg{
+    background-color: #F2D3FF;
+    
+}
+.violet_bg th{
+    border: 1px solid #960891 !important;
+}
+.butn_center tr th:last-child,.butn_center tr td:last-child{
+    text-align: center;
+}
+.table-over-scroll{
+    overflow-x: scroll;
+}
